@@ -6,7 +6,7 @@ type propsType = {
     headingColor: string;
     cardBody: string;
     cardText: string;
-    cardLink: string,
+    cardLink: string;
   };
 };
 export const darkTheme = {
@@ -47,5 +47,6 @@ export const GlobalStyles = createGlobalStyle`
    }
    .ant-typography {
     color: ${(props: propsType) => props.theme.cardLink} !important; 
+    font-weight: 600 !important;
   }
    `;

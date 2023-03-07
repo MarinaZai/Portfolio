@@ -4,6 +4,7 @@ import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme, GlobalStyles } from "./theme";
 import { HeaderBlock } from "./components/Header";
 import { MainBlock } from "./components/MainBlock";
+import { FooterBlock } from "./components/Footer";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -17,6 +18,7 @@ function App() {
       <GlobalStyles />
       <HeaderBlock switchTheme={switchTheme} />
       <MainBlock />
+      <FooterBlock />
     </ThemeProvider>
   );
 }

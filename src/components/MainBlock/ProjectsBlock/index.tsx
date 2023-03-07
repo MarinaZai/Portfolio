@@ -1,4 +1,4 @@
-import { Card } from "antd";
+import { Card, Image } from "antd";
 import Meta from "antd/es/card/Meta";
 import Link from "antd/es/typography/Link";
 import React from "react";
@@ -19,7 +19,7 @@ export const ProjectsBlock: React.FC = (props) => {
               key={item.id}
               hoverable
               style={{ width: 240, margin: "1%", border: "none" }}
-              cover={<img alt="example" src={item.src} />}
+              cover={<Image src={item.src} />}
             >
               <Meta
                 title={item.name}
@@ -36,6 +36,7 @@ export const ProjectsBlock: React.FC = (props) => {
                           alignItems: "center",
                           color: "#000000",
                           textDecoration: "underline",
+                          gap: '5px'
                         }}
                         href={item.deploy}
                       >
@@ -48,6 +49,7 @@ export const ProjectsBlock: React.FC = (props) => {
                           alignItems: "center",
                           color: "#000000",
                           textDecoration: "underline",
+                          gap: '5px'
                         }}
                         href={item.code}
                       >
