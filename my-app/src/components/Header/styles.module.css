@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: solid 1px #A7A7A7;
+}
+.logo {
+  background: -webkit-linear-gradient(
+    45deg,
+    #b03ffc 0%,
+    #00bcfe 50%,
+    #00bcfe 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.links {
+  display: flex;
+  gap: 25%;
+}
+.switchTheme {
+  background: linear-gradient(45deg, #b03ffc 0%, #00bcfe 50%, #00bcfe 100%);
+  border: none;
+  border-radius: 5%;
+  box-shadow: 0 0 6px rgb(0 0 0 / 50%);
+}

@@ -1,0 +1,16 @@
+.techStack {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: solid 1px #a7a7a7;
+  padding: 2%;
+}
+.techStackIcons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.techStackIcon {
+  padding: 2%;
+}
