@@ -1,0 +1,38 @@
+.projectsBlock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-bottom: solid 1px #a7a7a7;
+  padding: 2%;
+}
+.cardsProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardProject {
+  padding: 2%;
+}
+.info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.info > * {
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.descr {
+  overflow: hidden;
+  display: -webkit-box;
+}
+.info span {
+  height: 66px;
+}
+.linksProject {
+  display: flex;
+  justify-content: space-between;
+}
