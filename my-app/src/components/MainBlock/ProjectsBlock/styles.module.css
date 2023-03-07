@@ -36,3 +36,8 @@
   display: flex;
   justify-content: space-between;
 }
+:global(.ant-card-cover) {
+  margin-top: 0 !important;
+  margin-inline-start: 0 !important;
+  margin-inline-end: 0 !important;
+}

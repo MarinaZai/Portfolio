@@ -18,7 +18,7 @@ export const ProjectsBlock: React.FC = (props) => {
             <Card
               key={item.id}
               hoverable
-              style={{ width: 240, margin: "1%" }}
+              style={{ width: 240, margin: "1%", border: "none" }}
               cover={<img alt="example" src={item.src} />}
             >
               <Meta
