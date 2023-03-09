@@ -4,8 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### About this project
 
-This project is written using the React framework.
-Deploy: https://portfolio-m-z.netlify.app/
+This project is written using the React framework.\
+Deploy: https://portfolio-m-z.netlify.app/ \
 As new works appear, the portfolio is updated.
 
 ## Available Scripts
