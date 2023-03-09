@@ -5,14 +5,19 @@ import {
 } from "@ant-design/icons";
 import Link from "antd/es/typography/Link";
 import React from "react";
-import { FaTelegram } from "react-icons/fa";
+import { FaPhoneVolume, FaTelegram } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 import styles from "./styles.module.css";
 
 export const FooterBlock: React.FC = (props) => {
   return (
     <footer>
-      <Link href="tel:+375333207718">+375333207718</Link>
-      <Link href="mailto:marintos34@gmail.com">marintos34@gmail.com</Link>  
+      <Link href="tel:+375333207718">
+        <FaPhoneVolume style={{ fontSize: "20px", color: "#A7A7A7" }} />
+      </Link>
+      <Link href="mailto:marintos34@gmail.com">
+        <MdEmail style={{ fontSize: "20px", color: "#A7A7A7" }} />
+      </Link>
       <div className={styles.links}>
         <Link href="https://github.com/MarinaZai">
           <GithubOutlined style={{ fontSize: "20px", color: "#A7A7A7" }} />
