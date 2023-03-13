@@ -24,6 +24,7 @@ import presRevealjs from "../assets/presRevealjs.jpeg";
 import lawyers from "../assets/lawyers.jpeg";
 import goCorona from "../assets/goCorona.jpeg";
 import lostShirt from "../assets/lostShirt.jpeg";
+import dndCalc from "../assets/dndCalc.jpeg";
 
 export const techStackData = [
   { id: 1, icon: <FaHtml5 size="50px" color="#E44F26" /> },
@@ -33,7 +34,7 @@ export const techStackData = [
   { id: 5, icon: <SiTypescript size="50px" color="#1572B6" /> },
   { id: 6, icon: <FaBootstrap size="50px" color="#563D7C" /> },
   { id: 7, icon: <SiAntdesign size="50px" color="#1890ff" /> },
-  { id: 8, icon: <FaGithub size="50px" color="#FFFEFE" /> },
+  { id: 8, icon: <FaGithub size="50px" color="#1572B6" /> },
   { id: 9, icon: <SiGit size="50px" color="#DE4C36" /> },
   { id: 10, icon: <SiI18Next size="50px" color="#4baf4f" /> },
   { id: 11, icon: <SiWebpack size="50px" color="#8ed6fb " /> },
@@ -58,7 +59,7 @@ export const projectData = [
     description: "Team project",
     code: "https://github.com/Stangat/online-store/pull/39",
     deploy: "https://online-store-sgmz.netlify.app/?",
-    stack: "JS,Webpack,TypeScript",
+    stack: "JavaScript,Webpack,TypeScript",
   },
   {
     id: 15,
@@ -77,7 +78,7 @@ export const projectData = [
     description: "Individual educational project",
     code: "https://github.com/MarinaZai/Song-bird",
     deploy: "https://bird-songs-check.netlify.app/",
-    stack: " JS,Webpack,SASS",
+    stack: " JavaScript,Webpack,SASS",
   },
   {
     id: 17,
@@ -88,7 +89,7 @@ export const projectData = [
     deploy:
       "https://marinazai.github.io/Online-zoo/online-zoo/pages/main/index.html",
     stack:
-      "HTML,CSS,JS",
+      "HTML,CSS,JavaScript",
   },
   {
     id: 18,
@@ -139,5 +140,15 @@ export const projectData = [
     deploy: "https://marinazai.github.io/Lostshirt/#",
     stack:
       "HTML, CSS, JS",
+  },
+    {
+    id: 23,
+    src: `${dndCalc}`,
+    name: "DND Conctructor calculator",
+    description: "Individual project",
+    code: "https://github.com/MarinaZai/DND-Calculator/pull/1",
+    deploy: "https://dnd-calc-m-z.netlify.app/",
+    stack:
+      "React,TypeScript,React-beautiful-dnd, uuid",
   },
 ];
