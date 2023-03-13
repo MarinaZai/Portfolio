@@ -43,6 +43,15 @@ export const techStackData = [
 
 export const projectData = [
   {
+    id: 23,
+    src: `${dndCalc}`,
+    name: "DND Conctructor calculator",
+    description: "Individual project",
+    code: "https://github.com/MarinaZai/DND-Calculator/pull/1",
+    deploy: "https://dnd-calc-m-z.netlify.app/",
+    stack: "React,TypeScript,React-beautiful-dnd, uuid",
+  },
+  {
     id: 13,
     src: `${spotify}`,
     name: "Spotify clone",
@@ -68,8 +77,7 @@ export const projectData = [
     description: "Individual educational project",
     code: "https://github.com/MarinaZai/Async-Race",
     deploy: "https://async-race-marinazai.netlify.app/",
-    stack:
-      "React,Webpack,TypeScript,axios",
+    stack: "React,Webpack,TypeScript,axios",
   },
   {
     id: 16,
@@ -88,8 +96,7 @@ export const projectData = [
     code: "https://github.com/MarinaZai/Online-zoo",
     deploy:
       "https://marinazai.github.io/Online-zoo/online-zoo/pages/main/index.html",
-    stack:
-      "HTML,CSS,JavaScript",
+    stack: "HTML,CSS,JavaScript",
   },
   {
     id: 18,
@@ -98,8 +105,7 @@ export const projectData = [
     description: "Individual educational project",
     code: "https://github.com/MarinaZai/star",
     deploy: "https://find-github-profile1.netlify.app/user-not-found",
-    stack:
-      "React,axios",
+    stack: "React,axios",
   },
   {
     id: 19,
@@ -118,8 +124,7 @@ export const projectData = [
     description: "Individual educational project",
     code: "https://github.com/MarinaZai/LAWYERS-HUB",
     deploy: "https://marinazai.github.io/LAWYERS-HUB/#/",
-    stack:
-      "HTML, CSS",
+    stack: "HTML, CSS",
   },
   {
     id: 21,
@@ -128,8 +133,7 @@ export const projectData = [
     description: "Individual educational project",
     code: "https://github.com/MarinaZai/GoCorona",
     deploy: "https://marinazai.github.io/GoCorona/",
-    stack:
-      "HTML, CSS",
+    stack: "HTML, CSS",
   },
   {
     id: 22,
@@ -138,17 +142,6 @@ export const projectData = [
     description: "Individual educational project",
     code: "https://github.com/MarinaZai/Lostshirt",
     deploy: "https://marinazai.github.io/Lostshirt/#",
-    stack:
-      "HTML, CSS, JS",
-  },
-    {
-    id: 23,
-    src: `${dndCalc}`,
-    name: "DND Conctructor calculator",
-    description: "Individual project",
-    code: "https://github.com/MarinaZai/DND-Calculator/pull/1",
-    deploy: "https://dnd-calc-m-z.netlify.app/",
-    stack:
-      "React,TypeScript,React-beautiful-dnd, uuid",
+    stack: "HTML, CSS, JS",
   },
 ];
