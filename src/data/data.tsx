@@ -25,6 +25,7 @@ import lawyers from "../assets/lawyers.jpeg";
 import goCorona from "../assets/goCorona.jpeg";
 import lostShirt from "../assets/lostShirt.jpeg";
 import dndCalc from "../assets/dndCalc.jpeg";
+import guess from "../assets/guess.jpeg";
 
 export const techStackData = [
   { id: 1, icon: <FaHtml5 size="50px" color="#E44F26" /> },
@@ -42,6 +43,15 @@ export const techStackData = [
 ];
 
 export const projectData = [
+  {
+    id: 24,
+    src: `${guess}`,
+    name: "Guess My Number!",
+    description: "Individual project",
+    code: "https://github.com/MarinaZai/Course-Jonas/tree/GuessMyNumber",
+    deploy: "https://guessnumberplay.netlify.app/",
+    stack: "HTML,CSS,JS",
+  },
   {
     id: 23,
     src: `${dndCalc}`,
